@@ -1,0 +1,334 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.12.8",
+  "hash": "0ce4d16f9df0cd7959d8",
+  "time": 420,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "about": "about.js",
+    "home": "home.js",
+    "common": "common.js"
+  },
+  "assets": [
+    {
+      "name": "about.js",
+      "size": 893,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "about"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "home.js",
+      "size": 887,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "home"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "common.js",
+      "size": 9303,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 271,
+      "names": [
+        "about"
+      ],
+      "files": [
+        "about.js"
+      ],
+      "hash": "864eeff335051aa72585",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+          "name": "./about.es6",
+          "index": 0,
+          "index2": 1,
+          "size": 271,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 231,
+            "building": 131,
+            "dependencies": 2
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)('about');\n\nexports.welcome = _welcome2.default;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+          "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+          "moduleName": "./about.es6",
+          "loc": "",
+          "name": "about",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "extraAsync": false,
+      "size": 270,
+      "names": [
+        "home"
+      ],
+      "files": [
+        "home.js"
+      ],
+      "hash": "bc17a3784394c4dc7ad7",
+      "parents": [
+        2
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+          "name": "./home.es6",
+          "index": 2,
+          "index2": 2,
+          "size": 270,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 21,
+            "building": 332
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)('home');\n\nexports.welcome = _welcome2.default;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+          "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+          "moduleName": "./home.es6",
+          "loc": "",
+          "name": "home",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 145,
+      "names": [
+        "common"
+      ],
+      "files": [
+        "common.js"
+      ],
+      "hash": "fe9e0b875cd0ce052255",
+      "parents": [],
+      "modules": [
+        {
+          "id": 1,
+          "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/welcome.es6",
+          "name": "./welcome.es6",
+          "index": 1,
+          "index2": 0,
+          "size": 145,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "assets": [],
+          "issuer": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+          "profile": {
+            "factory": 13,
+            "building": 13
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+              "module": "./home.es6",
+              "moduleName": "./home.es6",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "3:15-35"
+            },
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+              "module": "./about.es6",
+              "moduleName": "./about.es6",
+              "type": "cjs require",
+              "userRequest": "./welcome",
+              "loc": "3:15-35"
+            }
+          ],
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nexports.default = function (str) {\n    document.write(str);\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+      "name": "./about.es6",
+      "index": 0,
+      "index2": 1,
+      "size": 271,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 231,
+        "building": 131,
+        "dependencies": 2
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)('about');\n\nexports.welcome = _welcome2.default;"
+    },
+    {
+      "id": 0,
+      "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+      "name": "./home.es6",
+      "index": 2,
+      "index2": 2,
+      "size": 270,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 21,
+        "building": 332
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "'use strict';\n\nvar _welcome = require('./welcome');\n\nvar _welcome2 = _interopRequireDefault(_welcome);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _welcome2.default)('home');\n\nexports.welcome = _welcome2.default;"
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/welcome.es6",
+      "name": "./welcome.es6",
+      "index": 1,
+      "index2": 0,
+      "size": 145,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "assets": [],
+      "issuer": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+      "profile": {
+        "factory": 13,
+        "building": 13
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/home.es6",
+          "module": "./home.es6",
+          "moduleName": "./home.es6",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "3:15-35"
+        },
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/maximradov/worckgroup/webPackTut/node_modules/babel-loader/index.js?{\"presets\":[\"es2015\"]}!/Users/maximradov/worckgroup/webPackTut/frontEnd/about.es6",
+          "module": "./about.es6",
+          "moduleName": "./about.es6",
+          "type": "cjs require",
+          "userRequest": "./welcome",
+          "loc": "3:15-35"
+        }
+      ],
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nexports.default = function (str) {\n    document.write(str);\n};"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}
